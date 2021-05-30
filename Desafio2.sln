@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "ETL-COVID-19", "Desafio2\ETL-COVID-19.dtproj", "{39FFD5AB-67DC-49BE-83EC-2A4306BE9DC7}"
+EndProject
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Cubo-Creacion", "Cubo-Creacion\Cubo-Creacion.dwproj", "{85A10B57-FAA5-4C63-9093-CA116B664DB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39FFD5AB-67DC-49BE-83EC-2A4306BE9DC7}.Development|Default.ActiveCfg = Development
+		{39FFD5AB-67DC-49BE-83EC-2A4306BE9DC7}.Development|Default.Build.0 = Development
+		{85A10B57-FAA5-4C63-9093-CA116B664DB7}.Development|Default.ActiveCfg = Development
+		{85A10B57-FAA5-4C63-9093-CA116B664DB7}.Development|Default.Build.0 = Development
+		{85A10B57-FAA5-4C63-9093-CA116B664DB7}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {53EEA25D-EFB5-402F-9892-31A89ABA9895}
+	EndGlobalSection
+EndGlobal

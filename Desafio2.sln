@@ -5,7 +5,16 @@ VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "ETL-COVID-19", "Desafio2\ETL-COVID-19.dtproj", "{39FFD5AB-67DC-49BE-83EC-2A4306BE9DC7}"
 EndProject
-Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Cubo-Creacion", "Cubo-Creacion\Cubo-Creacion.dwproj", "{85A10B57-FAA5-4C63-9093-CA116B664DB7}"
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Cubo-1", "Cubo-Creacion\Cubo-1.dwproj", "{85A10B57-FAA5-4C63-9093-CA116B664DB7}"
+EndProject
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Cubo-2", "Cubo-2\Cubo-2.dwproj", "{E634EA77-BB8C-4FA7-B588-C651E5E7F0B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Script", "Script", "{8692033E-2531-4897-BC13-49821A5E6F48}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\DMD\Unidad 5\Desafio2\[DataMarkNorthwind].sql = ..\..\..\..\DMD\Unidad 5\Desafio2\[DataMarkNorthwind].sql
+		..\..\..\..\DMD\Unidad 5\Desafio2\[Desafio2]_PuntoDos.sql = ..\..\..\..\DMD\Unidad 5\Desafio2\[Desafio2]_PuntoDos.sql
+		..\..\..\..\DMD\Unidad 5\Desafio2\QueryDemostrativa.sql = ..\..\..\..\DMD\Unidad 5\Desafio2\QueryDemostrativa.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +26,9 @@ Global
 		{85A10B57-FAA5-4C63-9093-CA116B664DB7}.Development|Default.ActiveCfg = Development
 		{85A10B57-FAA5-4C63-9093-CA116B664DB7}.Development|Default.Build.0 = Development
 		{85A10B57-FAA5-4C63-9093-CA116B664DB7}.Development|Default.Deploy.0 = Development
+		{E634EA77-BB8C-4FA7-B588-C651E5E7F0B3}.Development|Default.ActiveCfg = Development
+		{E634EA77-BB8C-4FA7-B588-C651E5E7F0B3}.Development|Default.Build.0 = Development
+		{E634EA77-BB8C-4FA7-B588-C651E5E7F0B3}.Development|Default.Deploy.0 = Development
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

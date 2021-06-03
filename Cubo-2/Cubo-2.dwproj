@@ -6,6 +6,18 @@
     <Name>Cubo-2.database</Name>
     <FullPath>Cubo-2.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>CuboMovilidad.cube</Name>
+      <FullPath>CuboMovilidad.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>CuboMovilidad.partitions</Name>
+          <FullPath>CuboMovilidad.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
   <Dimensions>
     <ProjectItem>
       <Name>Categorias.dim</Name>

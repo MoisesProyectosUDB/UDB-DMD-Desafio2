@@ -1,0 +1,229 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="4d724972-566d-43b3-8c2b-fa22ed5b8707" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>CuboMovilidad</ID>
+  <Name>CuboMovilidad</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="875d351a-1167-466c-b6b0-e618859bf7e1">
+      <ID>Tiempo</ID>
+      <Name>Tiempo</Name>
+      <DimensionID>Tiempo</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="4e57cb0e-af1a-4724-bcf7-ebfe46c6d07a">
+          <AttributeID>Tiempo ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a43e4d42-0a5f-418b-b181-8e34734936f3">
+          <AttributeID>Fecha Consulta</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5061ef0e-8505-413e-9012-3a3add48cfa4">
+          <AttributeID>Dia</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e8b96e38-3f89-44a1-89ec-5bbea5c87c72">
+          <AttributeID>Mes</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="36bbaa44-8b2d-4bd2-97ff-cd2774375b29">
+          <AttributeID>Año</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="e870a4ac-5985-48d1-8410-fac8a0bd7e40">
+      <ID>Categorias</ID>
+      <Name>Categorias</Name>
+      <DimensionID>Categorias</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="4b1a421d-7cdd-460c-b36b-273ae7663438">
+          <AttributeID>Categoria ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="226dd166-107c-4140-b6d6-36c4649ede5d">
+          <AttributeID>Name Categoria</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="b1a0829e-7878-4278-99c3-78f6ac78cdcf">
+      <ID>Paises</ID>
+      <Name>Paises</Name>
+      <DimensionID>Paises</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="3ac6a309-bbf6-43c5-ab34-4878f206047e">
+          <AttributeID>Pais ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7458858c-17be-4b77-ad96-076c7d3b0564">
+          <AttributeID>Region Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="13f27c49-f0f4-436e-b617-81657d8aa79c">
+          <AttributeID>Country Region</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="0ade8a6c-0ebe-4ddb-81c0-3937e3d9c6d1">
+      <ID>Departamento</ID>
+      <Name>Departamento</Name>
+      <DimensionID>Departamento</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="c641ee52-a3bb-4bb7-aef5-e5a9bb8596c3">
+          <AttributeID>Departamento ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="29b2f764-215e-46a4-b6e1-56f77f644db3">
+          <AttributeID>Sub Region</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c826f1a1-2ce4-4c85-8a14-bafe15681b58">
+          <AttributeID>Iso Code</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="ae540c39-d94f-4f00-96f3-9849a7df4649">
+      <ID>Consulta Movilidad</ID>
+      <Name>Consulta Movilidad</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="a3b6a3cf-ba4e-4e74-ae56-7919f736ef06">
+          <ID>Resultado</ID>
+          <Name>Resultado</Name>
+          <Source dwd:design-time-name="00519d1d-435d-4554-8a7c-4cc30a90dce1">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="517cf25e-fa08-4471-8d38-619ee2cfb179">
+              <TableID>dbo_ConsultaMovilidad</TableID>
+              <ColumnID>Resultado</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="23376c29-9816-4e02-9010-ff31eb3a6baf">
+          <ID>Recuento Consulta Movilidad</ID>
+          <Name>Recuento Consulta Movilidad</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="04c75f3b-c1d0-4077-b1ae-893af9e27040">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="81af7b1e-6f38-490b-af02-c2d11798c0c1">
+              <TableID>dbo_ConsultaMovilidad</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5e460358-6684-404a-8884-519f75c287ad">
+          <CubeDimensionID>Tiempo</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="19dbe5cd-57ce-4655-9ca4-f781d1be5756">
+              <AttributeID>Tiempo ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="bc98c579-ef7c-438c-a26a-427fcfd868d5">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="103983bf-4709-4f8b-b10b-6dc5d66d806b">
+                    <TableID>dbo_ConsultaMovilidad</TableID>
+                    <ColumnID>Idfecha</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="e20e6603-3e4a-4482-80e8-d11e716fc05a">
+          <CubeDimensionID>Categorias</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="69a908d2-ee79-480f-b9e6-2b50801df3e8">
+              <AttributeID>Categoria ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="605846b9-4860-48cc-9449-bb5e5631a4a0">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c9d1267c-a7a2-4479-97b1-b3a9583fe479">
+                    <TableID>dbo_ConsultaMovilidad</TableID>
+                    <ColumnID>IdCategoria</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="aaa401f2-307d-4012-8976-60b3b73b2dff">
+          <CubeDimensionID>Paises</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="9f593567-eb22-435a-9739-3bb0abcbfc8c">
+              <AttributeID>Pais ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="4c20f4e2-dddc-4ed2-b12b-20d80333bdef">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="87a4535e-77d5-4302-9361-ca803ce18416">
+                    <TableID>dbo_ConsultaMovilidad</TableID>
+                    <ColumnID>IdPais</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="0b9d8a7a-a027-400c-b97e-2c7844ff524a">
+          <CubeDimensionID>Departamento</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="bdaa79e2-80b6-4013-b01d-f19ea3bf38e3">
+              <AttributeID>Departamento ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="e3972995-3717-42d6-a5e6-6b13d61e52ee">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0a9a7ef1-0cfb-4f45-ae6d-b90784b8e874">
+                    <TableID>dbo_ConsultaMovilidad</TableID>
+                    <ColumnID>IdDepartamento</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="6464cfe3-fe3c-454b-86d3-0730c3cdcef2">
+    <DataSourceViewID>Desafio2</DataSourceViewID>
+  </Source>
+</Cube>
